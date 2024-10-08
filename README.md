@@ -9,4 +9,4 @@ pytest
 
 /tests/pytest.ini: runs tests in msedge with added cli commands
 
-/tests/html-test-report: contains details about tests
+/tests/html-test-report: step by step execution of tests
