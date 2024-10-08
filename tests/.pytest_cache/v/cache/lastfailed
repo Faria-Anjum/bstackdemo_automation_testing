@@ -1,0 +1,6 @@
+{
+  "test_checkout.py::test_clickCheckOut[chromium]": true,
+  "test_checkout.py::test_formFillup[chromium]": true,
+  "test_checkout.py::test_orderPlacedConfirmation[chromium]": true,
+  "test_checkout.py::test_continueShopping[chromium]": true
+}
