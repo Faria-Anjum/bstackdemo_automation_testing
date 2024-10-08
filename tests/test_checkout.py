@@ -9,8 +9,8 @@ import pytest, time, datetime
 #     appium_driver.get_screenshot_as_file(
 #         f'test_reports/{datetime.today().strftime("%Y-%m-%d")}.png')
 
-p = sync_playwright().start()
-browser = p.chromium.launch(headless=False)
+pw = sync_playwright().start()
+browser = pw.chromium.launch(headless=False)
 page = browser.new_page()
 login = LoginPage(page)
 cart = CartPage(page)
